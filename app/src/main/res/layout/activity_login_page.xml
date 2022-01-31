@@ -137,4 +137,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_btn" />
 
+    <TextView
+        android:id="@+id/error_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:letterSpacing="0.0892"
+        android:text="@string/incorrect_username_or_password"
+        android:textAlignment="center"
+        android:textColor="#FF415C"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass_textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
